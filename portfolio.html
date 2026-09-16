@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chandan BL — Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="portfolio_css.css">
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <nav>
+        <span class="logo">Chandan B L</span>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+
+    <section class="hero" style="border-top:none;">
+      <div class="eyebrow">BCA Student · Bengaluru, India</div>
+      <h1>Hi, I'm Chandan.<br>I build things with code.</h1>
+      <p class="hero-desc">3rd-year BCA student who enjoys turning half-finished ideas into working software.</p>
+      <div class="btn-row">
+        <a class="btn btn-primary" href="#projects">View projects</a>
+        <a class="btn btn-secondary" href="#contact">Get in touch</a>
+        <a class="btn btn-secondary" href="#" download>Download resume</a>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="section-label">About</div>
+      <h2>A bit about me</h2>
+      <p class="about-text">I'm a 3rd-year BCA student with a passion for building things that work — and work securely. My journey into tech started with curiosity about how websites function, which quickly grew into a deeper interest in full stack development and, eventually, cybersecurity.</p>
+      <p class="about-text">On the development side, I enjoy the full process of bringing an idea to life — designing intuitive interfaces, building solid back-end logic, and connecting everything with well-structured databases. On the security side, I'm drawn to understanding how systems can be exploited, so I can build applications that are resilient from the ground up rather than patched after the fact.</p>
+    </section>
+
+    <section id="skills">
+      <div class="section-label">Skills</div>
+      <h2>What I've been practicing</h2>
+      <div class="skills-grid">
+        <div class="skill-group">
+          <h3>Languages</h3>
+          <div class="skill-tags">
+            <span class="tag">Java</span>
+            <span class="tag">Python</span>
+            <span class="tag">C</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h3>Web development</h3>
+          <div class="skill-tags">
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">Javascript</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h3>Databases</h3>
+          <div class="skill-tags">
+            <span class="tag">MySQL</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h3>Tools & Fundamentals</h3>
+          <div class="skill-tags">
+            <span class="tag">DSA</span>
+            <span class="tag">DBMS</span>
+            <span class="tag">OOP</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <div class="section-label">Projects</div>
+      <h2>Things I've built</h2>
+
+      <div class="project-card">
+        <div class="project-top">
+          <span class="project-name">Telegram Userbot</span>
+          <!--<span class="project-tag tag-progress">In Progress</span>-->
+          <span class="project-tag tag-completed">Completed</span>
+        </div>
+        <p class="project-desc">A stable pluggable Telegram userbot + VC music bot, based on Telethon, with Ultroid - UserBot.</p>
+        <div class="project-stack">
+          <span>Python</span>
+        </div><!-- · <span>Swing</span> · <span>MySQL</span>-->
+      </div>
+      <div class="project-card">
+        <div class="project-top">
+          <span class="project-name">Calculator</span>
+          <span class="project-tag tag-completed">Completed</span>
+        </div>
+        <p class="project-desc">A simple Calculator App.</p>
+        <div class="project-stack">
+          <span>HTML</span> · 
+          <span>CSS</span> · 
+          <span>Javascript</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="education">
+      <div class="section-label">Education</div>
+      <h2>Where I've studied</h2>
+
+      <div class="edu-item">
+        <div class="edu-degree">Bachelor of Computer Applications (BCA)</div>
+        <div class="edu-school">Bengaluru City University, Bengaluru</div>
+        <div class="edu-year">2024 — 2027 (expected) · currently 3rd year</div>
+      </div>
+      <div class="edu-item">
+        <div class="edu-degree">Higher Secondary (PCM)</div>
+        <div class="edu-school">PM Shri Kendriya Vidyalaya Malleshwaram, Bengaluru</div>
+        <div class="edu-year">2022 — 2024</div>
+      </div>
+      <div class="edu-item">
+        <div class="edu-degree">Senior Secondary</div>
+        <div class="edu-school">PM Shri Kendriya Vidyalaya Malleshwaram, Bengaluru</div>
+        <div class="edu-year">2021 — 2022</div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="section-label">Contact</div>
+      <h2>Let's talk</h2>
+      <div class="contact-card">
+        <p>Have a project in mind, an internship opening, or just want to say hi? Send a message and I'll get back to you.</p>
+
+        <form id="contactForm">
+          <div class="field-row">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" placeholder="Your name" required>
+          </div>
+          <div class="field-row">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" placeholder="you@example.com" required>
+          </div>
+          <div class="field-row">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" placeholder="What's on your mind?" required></textarea>
+          </div>
+          <button type="submit" class="submit-btn" id="submitBtn">Send message</button>
+          <p id="formStatus" style="margin-top:12px;font-size:13.5px;display:none;"></p>
+        </form>
+
+        <div class="direct-contact">
+          <a href="mailto:chandanbl724@gmail.com">Gmail</a>
+          <a href="https://github.com/chandan-bl" target="_blank" rel="noopener">GitHub</a>
+          <a href="https://www.linkedin.com/in/chandan-b-l-47179940b/" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>© 2026 Chandan BL. Built with HTML &amp; CSS.</footer>
+
+<script>
+  // Sends contact form submissions to a Google Sheet via a Google Apps Script web app.
+  const SHEET_ENDPOINT = 'https://script.google.com/macros/s/AKfycbxDBTK6-A_ESWIRZQjWEUWrqWWydRaVkTEmpQz6HcI28pZ46eD2Av6Xucm7OU__neVsZQ/exec'
+  const contactForm = document.getElementById('contactForm');
+  const submitBtn = document.getElementById('submitBtn');
+  const formStatus = document.getElementById('formStatus');
+
+  function showStatus(message, isError){
+    formStatus.textContent = message;
+    formStatus.style.display = 'block';
+    formStatus.style.color = isError ? '#c0392b' : '#2a7a3d';
+  }
+
+  contactForm.addEventListener('submit', async (e) => {
+    e.preventDefault();
+
+    const data = {
+      name: document.getElementById('name').value,
+      email: document.getElementById('email').value,
+      message: document.getElementById('message').value,
+      timestamp: new Date().toISOString()
+    };
+
+    submitBtn.disabled = true;
+    submitBtn.textContent = 'Sending...';
+    formStatus.style.display = 'none';
+
+    try {
+      // Apps Script web apps don't return CORS headers, so the response body
+      // isn't readable from the browser in no-cors mode. The request still
+      // reaches the script and gets logged to the sheet; we just can't
+      // inspect the response, so we treat a non-throwing fetch as success.
+      await fetch(SHEET_ENDPOINT, {
+        method: 'POST',
+        mode: 'no-cors',
+        headers: { 'Content-Type': 'text/plain;charset=utf-8' },
+        body: JSON.stringify(data)
+      });
+
+      showStatus("Thanks! Your message has been sent.", false);
+      contactForm.reset();
+    } catch (err) {
+      showStatus("Something went wrong — please try again or email me directly.", true);
+    } finally {
+      submitBtn.disabled = false;
+      submitBtn.textContent = 'Send message';
+    }
+  });
+</script>
+</body>
+</html>
